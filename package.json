@@ -1,0 +1,28 @@
+{
+  "name": "api-test-framework",
+  "version": "1.0.1",
+  "description": "API test framework",
+  "main": "",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=./reports,reportFilename=mocha-report.html,code=false,autoOpen=false"
+  },
+  "author": "pravin.surve@travelex.com",
+  "license": "ISC",
+  "keywords": [
+    "mocha",
+    "chai",
+    "request",
+    "mochawesome"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1"
+  },
+  "dependencies": {
+    "chance": "^1.0.18",
+    "gulp": "^4.0.0",
+    "request": "^2.88.0",
+    "util": "^0.11.0"
+  }
+}

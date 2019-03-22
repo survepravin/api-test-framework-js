@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://dummy.restapiexample.com/api/v1",
+    "createEmployeeUrl": "/create",
+    "getEmployeeUrl": "/employee/{id}",
+    "getEmployeesUrl": "/employees",
+    "updateEmployeeUrl": "/update/{id}",
+    "deleteEmployeeUrl": "/delete/{id}"
+}
